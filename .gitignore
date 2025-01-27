@@ -11,3 +11,9 @@ compose.override.yaml
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+/public/coverage
+###< symfony/phpunit-bridge ###
